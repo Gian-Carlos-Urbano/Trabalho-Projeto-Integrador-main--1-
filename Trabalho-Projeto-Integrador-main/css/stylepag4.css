@@ -63,6 +63,30 @@ header nav ul li a:hover {
     background-color: gray;
     font-size: 1.8rem;
 }
+header nav ul li ul {
+  display: none;
+}
+
+header nav ul li:hover ul {
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: white;
+  transition: 0.6s;
+}
+
+header nav ul li a:hover {
+    background-color: gray;
+    font-size: 1.8rem;
+}
 
 /* STYLE DE TUDO */
 
