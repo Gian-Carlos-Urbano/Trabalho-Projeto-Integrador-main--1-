@@ -242,19 +242,24 @@
             pag4.style.display = "none"
             pag5.style.display = "block"
 
-            let tecnica = document.querySelector(".pagina-5 input:checked").value
+            
             let mensagemTec = ""
+
+            
+        }
+
+        function vaiParaPagina6() {
+            pag5.style.display = "none"
+            pag6.style.display = "block"
+
+            let tecnica = document.querySelector(".pagina-5 input:checked").value
+            console.log(tecnica)
 
             if (tecnica == 1) {
                 mensagemTec = ("Muito bem, é sempre bom fazer algum tipo de tecnica antes de deitar!")
             } else {
                 mensagemTec = ("Não tem problema, as tecnicas não são obrigatorias mas ajudam.")
             }
-        }
-
-        function vaiParaPagina6() {
-            pag5.style.display = "none"
-            pag6.style.display = "block"
 
             let medicamento = document.querySelector(".pagina-6 input:checked").value
             let mensagemMed = ""
