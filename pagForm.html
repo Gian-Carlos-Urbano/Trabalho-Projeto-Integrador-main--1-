@@ -50,11 +50,11 @@
 
             <form action="#">
                 <label>
-                    <input type="radio" name="Estudante" value="1">  Sim
+                    <input type="radio" name="Estudante" value="1"> Sim
                 </label>
 
                 <label>
-                    <input type="radio" name="Estudante" value="0">  Não
+                    <input type="radio" name="Estudante" value="0"> Não
                 </label>
                 <button type="button" onclick="vaiParaPagina3()">
                     Proximo
@@ -97,7 +97,7 @@
                     <option value="1">4 horas antes</option>
                     <option value="2">3 horas antes</option>
                     <option value="3">2 horas antes</option>
-                    <option value="4">1 horas antes</option>
+                    <option value="4">1 hora antes</option>
                     <option value="5">30 minutos antes</option>
                     <option value="6">exatamente antes de deitar</option>
                 </select>
@@ -118,11 +118,11 @@
 
             <form action="#">
                 <label>
-                    <input type="radio" name="tecnica" value="1">  Sim
+                    <input type="radio" name="tecnica" value="1"> Sim
                 </label>
 
                 <label>
-                    <input type="radio" name="tecnica" value="0">  Não
+                    <input type="radio" name="tecnica" value="0"> Não
                 </label>
                 <button type="button" onclick="vaiParaPagina6()">
                     Proximo
@@ -135,15 +135,15 @@
 
             <h1>Medicamentos</h1>
             <hr>
-            <p>Você utiliza algum Medicamento para dormir ou usar algum chá, se sim qual o motivo?</p>
+            <p>Você utiliza algum Medicamento para dormir ou usar algum chá?</p>
 
             <form action="#">
 
                 <label>
-                    <input type="radio" name="medicamento" value="1">  Sim
+                    <input type="radio" name="medicamento" value="1"> Sim
                 </label>
                 <label>
-                    <input type="radio" name="medicamento" value="2">  Não
+                    <input type="radio" name="medicamento" value="2"> Não
                 </label>
 
                 <button type="button" onclick="vaiParaPagin7()">
@@ -151,19 +151,24 @@
                 </button>
 
             </form>
+
+        </section>
+
+        <section class="pagina-7" style="display: none;">
+            <h1>✨ Seu Resumo de Hábitos de Sono</h1>
+
+            <div id="resultado-final">
+            </div>
+
+            <a href="pag3.html">
+                <button onclick="window.location.href='index.html'">Voltar ao Início</button>
+            </a>
             
         </section>
 
-        <section class="pagina-7">
-            <h1>Resultado com Respostas</h1>
-            <hr>
-            <p>Muito obrigado por ter respondido o nosso formulario, aliás aqui então as respostas para cada pergunta respondida!</p>
-            
-        </section>
 
 
 
-        
 
 
 
@@ -171,109 +176,157 @@
 
     <script>
 
-        const pag1 = document.querySelector("section.pagina-1");
-        const pag2 = document.querySelector("section.pagina-2");
-        const pag3 = document.querySelector("section.pagina-3");
-        const pag4 = document.querySelector("section.pagina-4");
-        const pag5 = document.querySelector("section.pagina-5");
-        const pag6 = document.querySelector("section.pagina-6")
-        let nome = ""
+    const pag1 = document.querySelector("section.pagina-1");
+    const pag2 = document.querySelector("section.pagina-2");
+    const pag3 = document.querySelector("section.pagina-3");
+    const pag4 = document.querySelector("section.pagina-4");
+    const pag5 = document.querySelector("section.pagina-5");
+    const pag6 = document.querySelector("section.pagina-6");
+    const pag7 = document.querySelector("section.pagina-7");
+    
+    
+    let nome = "";
+    let mensagemHora = "";
+    let mensagemTela = ""; 
+    let mensagemTec = ""; 
+    let mensagemMed = "";  
 
-        function vaiParaPagina2() {
-            pag1.style.display = "none"
-            pag2.style.display = "block"
-            nome = document.querySelector(".pagina-1 input").value
-            document.querySelector(".pagina-2 h1 span").innerHTML = nome
-            
+    function vaiParaPagina2() {
+        pag1.style.display = "none"
+        pag2.style.display = "block"
+        nome = document.querySelector(".pagina-1 input").value
+        document.querySelector(".pagina-2 h1 span").innerHTML = nome
+        console.log(nome)
+    }
+
+    function vaiParaPagina3() {
+
+        pag2.style.display = "none"
+
+        let estudante = document.querySelector(".pagina-2 input:checked").value
+
+        if (estudante == 1) {
+            pag3.style.display = "block"
+        } else {
+          
+            window.location.href = "pag3.html" 
         }
-
-        function vaiParaPagina3() {
-
-            pag2.style.display = "none"
-
-            let estudante = document.querySelector(".pagina-2 input:checked").value
-
-            if (estudante == 1) {
-                pag3.style.display = "block"
-            } else {
-                window.location.href = "pag3.html"
-            }
-
-            let hora = document.getElementById('hora').value;
-            let mensagemHora = ""
-
-            if (hora == 1) {
-                mensagemHora = ("Ola, é deveras preocupante a quantidade de horas que você dorme, peço que por favor tente deitarse mais cedo, ou tente acordar mais tarde.\nEssa privação sobre o sono pode causar muitos danos a sua saúde tanto fisíca tanto menta! Peço que leia a paginá 'Beneficios e Malefícios' para aprender oque pode te causar essa privação de sono");
-            } else if (hora == 2) {
-                mensagemHora = ("Ola, O seu tempo de sono não é exatamente saúdavel, poderia ser melhor, tente dormir mais tempo pelo menos entre '6-8' horas!. \nVisite a pagina 'Beneficios e Malefícios' para mais informações sobre o risco de dormir pouco tempo ");
-            } else if (hora == 3) {
-                mensagemHora = ("Ola, Seu tempo de sono esta ótimo, continue assim!");
-            } else if (hora == 4) {
-                mensagemHora = ("Ola, seu tempo de sono está um pouco auto, tome mais cuidado pois dormir demais também faz mal!")
-            } else {
-                mensagemHora = ("Ola, estou precupado com sua saúde, você esta dormindo uma quantidade muito ecessiva de horas, isso também pode fazer muito mal!")
-            }
-
-        }
-
-        function vaiParaPagina4() {
-            pag3.style.display = "none"
-            pag4.style.display = "block"
-
-            let telas = document.getElementById('tela').value;
-            let mensagemTela = ""
-
-            if (tela == 1) {
-                mensagemTela = ("Olha, tenho que admitir, estou surpreso por você não parar de mecher no celular tão cedo, parabéns!")
-            } else if (tela == 2) {
-                mensagemTela = ("Muito bom! 3 horas antes de dormir sem telas é excelente para sua saúde.");
-            } else if (tela == 3) {
-                mensagemTela = ("2 horas antes de dormir sem telas já é um ótimo começo, continue assim!");
-            } else if (tela == 4) {
-                mensagemTela = ("1 hora antes de dormir sem telas é bom, mas tente aumentar esse tempo para melhorar ainda mais seu sono.");
-            } else if (tela == 5) {
-                mensagemTela = ("30 minutos antes de dormir sem telas é pouco, tente evitar telas por mais tempo antes de dormir.");
-            } else {
-                mensagemTela = ("Evitar telas apenas exatamente antes de deitar pode prejudicar seu sono. Tente parar de usar telas mais cedo.");
-            }
-        }
-
-        function vaiParaPagina5() {
-            pag4.style.display = "none"
-            pag5.style.display = "block"
-
-            
-            let mensagemTec = ""
-
-            
-        }
-
-        function vaiParaPagina6() {
-            pag5.style.display = "none"
-            pag6.style.display = "block"
-
-            let tecnica = document.querySelector(".pagina-5 input:checked").value
-            console.log(tecnica)
-
-            if (tecnica == 1) {
-                mensagemTec = ("Muito bem, é sempre bom fazer algum tipo de tecnica antes de deitar!")
-            } else {
-                mensagemTec = ("Não tem problema, as tecnicas não são obrigatorias mas ajudam.")
-            }
-
-            let medicamento = document.querySelector(".pagina-6 input:checked").value
-            let mensagemMed = ""
-
-            if (medicamento == 1) {
-                mensagemMed = ("Se você utiliza medicamentos ou chás para dormir, é importante conversar com um profissional de saúde para garantir que está fazendo o uso correto e seguro. Cuide bem do seu sono!");
-            } else {
-                mensagemMed = ("Ótimo! Evitar o uso de medicamentos para dormir é sempre preferível quando possível. Continue cuidando do seu sono de forma natural!");
-            }
-
-        }
-
 
         
+
+    }
+
+    function vaiParaPagina4() {
+        pag3.style.display = "none"
+        pag4.style.display = "block"
+
+        let hora = document.getElementById('hora').value;
+       
+        if (hora == 1) {
+            mensagemHora = ("Olá, é deveras preocupante a quantidade de horas que você dorme, peço que por favor tente deitar-se mais cedo, ou tente acordar mais tarde.\nEssa privação sobre o sono pode causar muitos danos a sua saúde tanto física quanto mental! Peço que leia a página 'Benefícios e Malefícios' para aprender o que pode te causar essa privação de sono");
+        } else if (hora == 2) {
+            mensagemHora = ("Olá, o seu tempo de sono não é exatamente saudável, poderia ser melhor, tente dormir mais tempo pelo menos entre '6-8' horas!. \nVisite a página 'Benefícios e Malefícios' para mais informações sobre o risco de dormir pouco tempo ");
+        } else if (hora == 3) {
+            mensagemHora = ("Olá, seu tempo de sono está ótimo, continue assim!");
+        } else if (hora == 4) {
+            mensagemHora = ("Olá, seu tempo de sono está um pouco alto, tome mais cuidado pois dormir demais também faz mal!")
+        } else {
+            mensagemHora = ("Olá, estou preocupado com sua saúde, você está dormindo uma quantidade muito excessiva de horas, isso também pode fazer muito mal!")
+        }
+        
+
+    }
+
+    function vaiParaPagina5() {
+        pag4.style.display = "none"
+        pag5.style.display = "block"
+
+        let telas = document.getElementById('tela').value;
+        
+
+        if (telas == 1) { 
+            mensagemTela = ("Olha, tenho que admitir, estou surpreso por você não parar de mexer no celular tão cedo, parabéns!")
+        } else if (telas == 2) {
+            mensagemTela = ("Muito bom! 3 horas antes de dormir sem telas é excelente para sua saúde.");
+        } else if (telas == 3) {
+            mensagemTela = ("2 horas antes de dormir sem telas já é um ótimo começo, continue assim!");
+        } else if (telas == 4) {
+            mensagemTela = ("1 hora antes de dormir sem telas é bom, mas tente aumentar esse tempo para melhorar ainda mais seu sono.");
+        } else if (telas == 5) {
+            mensagemTela = ("30 minutos antes de dormir sem telas é pouco, tente evitar telas por mais tempo antes de dormir.");
+        } else {
+            mensagemTela = ("Evitar telas apenas exatamente antes de deitar pode prejudicar seu sono. Tente parar de usar telas mais cedo.");
+        }
+        
+    }
+        
+    
+
+    function vaiParaPagina6() {
+        pag5.style.display = "none"
+        pag6.style.display = "block"
+
+        let tecnica = document.querySelector(".pagina-5 input:checked").value
+       
+
+        
+
+        if (tecnica == 1) {
+            mensagemTec = ("Muito bem, é sempre bom fazer algum tipo de técnica antes de deitar!")
+        } else {
+            mensagemTec = ("Não tem problema, as técnicas não são obrigatórias mas ajudam.")
+        }
+       
+    }
+
+    function vaiParaPagin7() {
+        pag6.style.display = "none"
+        pag7.style.display = "block"
+
+        let medicamento = document.querySelector(".pagina-6 input:checked").value
+
+        if (medicamento == 1) {
+            mensagemMed = ("Se você utiliza medicamentos ou chás para dormir, é importante conversar com um profissional de saúde para garantir que está fazendo o uso correto e seguro. Cuide bem do seu sono!");
+        } else {
+            mensagemMed = ("Ótimo! Evitar o uso de medicamentos para dormir é sempre preferível quando possível. Continue cuidando do seu sono de forma natural!");
+        }
+        
+     
+        let resultadoFinal = document.getElementById('resultado-final'); 
+        
+        if (resultadoFinal) {
+     
+            resultadoFinal.innerHTML = `
+                <h2>👋 Resumo para ${nome}</h2>
+                <hr>
+                
+                <h3>😴 Horas de Sono</h3>
+                <p>${mensagemHora}</p>
+                <hr>
+                
+                <h3>📱 Uso de Telas</h3>
+                <p>${mensagemTela}</p>
+                <hr>
+                
+                <h3>🧘 Técnicas de Relaxamento</h3>
+                <p>${mensagemTec}</p>
+                <hr>
+                
+                <h3>💊 Uso de Auxiliares/Medicamentos</h3>
+                <p>${mensagemMed}</p>
+                <hr>
+            `;
+        } else {
+            console.log("Elemento com id 'resultado-final' não encontrado na pagina-7.");
+        }
+      
+    }
+
+
+
+
+
+
     </script>
 
 

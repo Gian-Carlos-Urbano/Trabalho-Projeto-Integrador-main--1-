@@ -440,86 +440,97 @@ section.pagina-6 form button {
 /* pagina-7 - ESTILO REVISADO */
 
 section.pagina-7 {
-    /* Mantém o formato e as margens do container principal */
     display: block;
     background-color: #191A1B;
     border-radius: 15px;
     border-width: 1px;
     margin-top: 15%;
-    margin-left: 32%;
-    margin-right: 32%;
+    margin-left: 28%;
+    margin-right: 28%;
     padding-bottom: 3vw;
     padding-left: 2vw; 
     padding-right: 5vw;
     padding-top: 3vw;
     line-height: 1.5;
+
+    text-align: center; 
 }
+
 
 section.pagina-7 h1 {
-  /* Mantém o estilo do título principal */
   font-size: 3rem;
   color: white;
-  padding: auto;
+  padding: auto;qual
 }
+
+
+section.pagina-7 h3 {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-left: 2%;
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+
 
 section.pagina-7 hr {
-  /* Mantém o estilo da linha horizontal */
   color: white;
   padding-bottom: 2%;
+  
 }
 
+
+
 section.pagina-7 p {
-  /* Ajusta o parágrafo introdutório */
   font-size: 1.8rem;
   color: white;
   padding-left: 2%;
-  margin-bottom: 20px; /* Adiciona espaço abaixo do parágrafo de agradecimento */
+
+ 
+  text-align: left; 
 }
+
+
 
 section.pagina-7 h2 {
-  /* Ajusta o título secundário "Resumo das suas respostas:" */
   font-size: 2rem;
   color: white;
-  padding-left: 0%; /* Alinhado à esquerda para melhor leitura */
-  margin-top: 30px; /* Espaçamento superior */
-  border-bottom: 1px solid #ddd; /* Linha sutil para destacar a seção */
-  padding-bottom: 10px;
+  padding-left: 0; 
+  text-align: center;
 }
 
-/* Novos estilos para a lista de respostas adicionada no HTML anterior */
-section.pagina-7 ul {
-    list-style-type: none; /* Remove os marcadores de lista padrão */
-    padding-left: 0;
+
+
+section.pagina-7 form label input[type="radio"] {
+  transform: scale(2);
+  line-height: 2;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-left: 10%;
+  border-width: 2px;
+  border-radius: 5px;
 }
 
-section.pagina-7 li {
-    color: white;
-    font-size: 1.2rem;
-    margin-bottom: 15px; /* Espaço entre cada item da resposta */
+
+section.pagina-7 form label {
+  font-size: 1.2rem;
+  color: white;
+  
+  text-align: left; 
+  display: block; 
 }
 
-/* Estilo para os parágrafos que contêm as respostas dinâmicas dentro dos <li> */
-section.pagina-7 li p {
-    font-size: 1rem; /* Tamanho menor para a resposta detalhada */
-    color: #a0a0a0; /* Cor ligeiramente diferente para as respostas */
-    padding-left: 15px; /* Indentação para separar da pergunta em negrito */
-    margin-top: 5px;
-}
 
-/* Estilo para o link/botão final */
-section.pagina-7 a {
-    display: inline-block;
-    margin-top: 30px;
-    color: #191A1B; /* Cor do texto do link */
-    background-color: white; /* Fundo branco para destacar */
-    border: 2px solid white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none; /* Remove o sublinhado padrão */
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-}
 
-section.pagina-7 a:hover {
-    background-color: #ddd;
+section.pagina-7 a button {
+  color: white;
+ 
+  margin: 20px auto 0;
+  display: block;
+  border-width: 2px;
+  padding: 4px;
+  border-radius: 5px;
 }
