@@ -116,7 +116,7 @@ section.pagina-2 {
 section.pagina-2 h1 {
   font-size: 3rem;
   color: white;
-  padding: auto;
+  
 }
 
 section.pagina-2 hr {
@@ -181,7 +181,7 @@ section.pagina-3 {
 section.pagina-3 h1 {
   font-size: 3rem;
   color: white;
-  padding: auto;
+ 
 }
 
 section.pagina-3 hr {
@@ -216,7 +216,7 @@ section.pagina-3 form label {
 }
 
 section.pagina-3 form select {
-  font-size: 1.2;
+  font-size: 1.2rem;
   color: white;
   padding: 2px;
   border-width: 2px;
@@ -254,7 +254,7 @@ section.pagina-4 {
 section.pagina-4 h1 {
   font-size: 3rem;
   color: white;
-  padding: auto;
+  
 }
 
 section.pagina-4 hr {
@@ -289,7 +289,7 @@ section.pagina-4 form label {
 }
 
 section.pagina-4 form select {
-  font-size: 1.2;
+  font-size: 1.2rem;
   color: white;
   padding: 2px;
   border-width: 2px;
@@ -327,7 +327,7 @@ section.pagina-5 {
 section.pagina-5 h1 {
   font-size: 3rem;
   color: white;
-  padding: auto;
+ 
 }
 
 section.pagina-5 hr {
@@ -392,7 +392,7 @@ section.pagina-6 {
 section.pagina-6 h1 {
   font-size: 3rem;
   color: white;
-  padding: auto;
+  
 }
 
 section.pagina-6 hr {
@@ -460,7 +460,7 @@ section.pagina-7 {
 section.pagina-7 h1 {
   font-size: 3rem;
   color: white;
-  padding: auto;
+ 
 }
 
 
@@ -525,7 +525,7 @@ section.pagina-7 form label {
 
 
 
-section.pagina-7 a button {
+section.pagina-7  button {
   color: white;
  
   margin: 20px auto 0;
