@@ -98,6 +98,7 @@ section.pagina-1 form button {
 /* pagina 2 */
 
 
+
 section.pagina-2 {
     display: block;
     background-color: #191A1B;
@@ -116,7 +117,7 @@ section.pagina-2 {
 section.pagina-2 h1 {
   font-size: 3rem;
   color: white;
-  
+ 
 }
 
 section.pagina-2 hr {
@@ -137,21 +138,29 @@ section.pagina-2 h2 {
   padding-left: 20%;
 }
 
-section.pagina-2 form label input[type="radio"] {
-  transform: scale(2);
+section.pagina-2 form label {
+  
+  font-size: 1.2rem;
+  color: white;
   line-height: 2;
   margin-left: 10%;
   margin-top: 10%;
-  padding-left: 10%;
+  margin-right: 5%;
   border-width: 2px;
   border-radius: 5px;
+  padding: 2px;
 }
 
-section.pagina-2 form label {
+section.pagina-2 form select {
   font-size: 1.2rem;
   color: white;
-  
+  padding: 2px;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #191A1B;
 }
+
+
 
 section.pagina-2 form button {
   color: white;
@@ -169,8 +178,8 @@ section.pagina-3 {
     border-radius: 15px;
     border-width: 1px;
     margin-top: 15%;
-    margin-left: 32%;
-    margin-right: 32%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-bottom: 3vw;
     padding-left: 2vw; 
     padding-right: 5vw;
@@ -181,7 +190,7 @@ section.pagina-3 {
 section.pagina-3 h1 {
   font-size: 3rem;
   color: white;
- 
+  
 }
 
 section.pagina-3 hr {
@@ -242,8 +251,8 @@ section.pagina-4 {
     border-radius: 15px;
     border-width: 1px;
     margin-top: 15%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 32%;
+    margin-right: 32%;
     padding-bottom: 3vw;
     padding-left: 2vw; 
     padding-right: 5vw;
@@ -254,7 +263,7 @@ section.pagina-4 {
 section.pagina-4 h1 {
   font-size: 3rem;
   color: white;
-  
+ 
 }
 
 section.pagina-4 hr {
@@ -275,29 +284,21 @@ section.pagina-4 h2 {
   padding-left: 20%;
 }
 
-section.pagina-4 form label {
-  
-  font-size: 1.2rem;
-  color: white;
+section.pagina-4 form label input[type="radio"] {
+  transform: scale(2);
   line-height: 2;
   margin-left: 10%;
   margin-top: 10%;
-  margin-right: 5%;
+  padding-left: 10%;
   border-width: 2px;
   border-radius: 5px;
-  padding: 2px;
 }
 
-section.pagina-4 form select {
+section.pagina-4 form label {
   font-size: 1.2rem;
   color: white;
-  padding: 2px;
-  border-width: 2px;
-  border-radius: 5px;
-  background-color: #191A1B;
+  
 }
-
-
 
 section.pagina-4 form button {
   color: white;
@@ -327,7 +328,7 @@ section.pagina-5 {
 section.pagina-5 h1 {
   font-size: 3rem;
   color: white;
- 
+  
 }
 
 section.pagina-5 hr {
@@ -380,71 +381,6 @@ section.pagina-6 {
     border-radius: 15px;
     border-width: 1px;
     margin-top: 15%;
-    margin-left: 32%;
-    margin-right: 32%;
-    padding-bottom: 3vw;
-    padding-left: 2vw; 
-    padding-right: 5vw;
-    padding-top: 3vw;
-    line-height: 1.5;
-}
-
-section.pagina-6 h1 {
-  font-size: 3rem;
-  color: white;
-  
-}
-
-section.pagina-6 hr {
-  color: white;
-  padding-bottom: 2%;
-}
-
-section.pagina-6 p {
-  font-size: 1.8rem;
-  color: white;
-  padding-left: 2%;
-
-}
-
-section.pagina-6 h2 {
-  font-size: 2rem;
-  color: white;
-  padding-left: 20%;
-}
-
-section.pagina-6 form label input[type="radio"] {
-  transform: scale(2);
-  line-height: 2;
-  margin-left: 10%;
-  margin-top: 10%;
-  padding-left: 10%;
-  border-width: 2px;
-  border-radius: 5px;
-}
-
-section.pagina-6 form label {
-  font-size: 1.2rem;
-  color: white;
-  
-}
-
-section.pagina-6 form button {
-  color: white;
-  margin-left: 10%;
-  border-width: 2px;
-  padding: 4px;
-  border-radius: 5px;
-}
-
-/* pagina-7 */
-
-section.pagina-7 {
-    display: block;
-    background-color: #191A1B;
-    border-radius: 15px;
-    border-width: 1px;
-    margin-top: 15%;
     margin-left: 28%;
     margin-right: 28%;
     padding-bottom: 3vw;
@@ -457,14 +393,14 @@ section.pagina-7 {
 }
 
 
-section.pagina-7 h1 {
+section.pagina-6 h1 {
   font-size: 3rem;
   color: white;
  
 }
 
 
-section.pagina-7 h3 {
+section.pagina-6 h3 {
   font-size: 1.8rem;
   color: white;
   margin-top: 15px;
@@ -476,7 +412,7 @@ section.pagina-7 h3 {
 }
 
 
-section.pagina-7 hr {
+section.pagina-6 hr {
   color: white;
   padding-bottom: 2%;
   
@@ -484,7 +420,7 @@ section.pagina-7 hr {
 
 
 
-section.pagina-7 p {
+section.pagina-6 p {
   font-size: 1.8rem;
   color: white;
   padding-left: 2%;
@@ -495,7 +431,7 @@ section.pagina-7 p {
 
 
 
-section.pagina-7 h2 {
+section.pagina-6 h2 {
   font-size: 2rem;
   color: white;
   padding-left: 0; 
@@ -504,7 +440,7 @@ section.pagina-7 h2 {
 
 
 
-section.pagina-7 form label input[type="radio"] {
+section.pagina-6 form label input[type="radio"] {
   transform: scale(2);
   line-height: 2;
   margin-left: 10%;
@@ -515,7 +451,7 @@ section.pagina-7 form label input[type="radio"] {
 }
 
 
-section.pagina-7 form label {
+section.pagina-6 form label {
   font-size: 1.2rem;
   color: white;
   
@@ -525,7 +461,7 @@ section.pagina-7 form label {
 
 
 
-section.pagina-7  button {
+section.pagina-6  button {
   color: white;
  
   margin: 20px auto 0;
