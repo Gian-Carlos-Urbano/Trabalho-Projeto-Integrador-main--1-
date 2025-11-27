@@ -1,22 +1,22 @@
 //Gian//
 
  -começo das pesquisas: pré sono e relacionar boa noite de sono e saude mental. -11/07 <br>
-                        -Pré sono finalizado e enviado - 11/07 - 11:00 
-                        -Criação de redes sociais, e rascunho do site - Em produção - 18/07 - 10:06 - finalizado 18/07 -11:10
-                        -Email: superior.dreams.059@gmail.com
-                        -Instagram:superior.dreams.059 
-                        -X:@SuperiorDreams5 
-                        -Recriação da logo - 8:00 - estatus - incompleto - 08/08 
-                        -Recriação da logo - 10:20 - 10:50 - estatus - completo 22/08 
-                        -Finalização da pesquisa e pequena ajuda no figma - 15:00 - 17:00 - 04/09 
-                        -Inicio e termino de 1 pagina (capa) 12:00 - 15:24 - 09/09 
-                        -Inicio e termino das paginas 2, 3, 4, 6 13:00 - 23:00 - 11/09
-                        // pós sepe //
-                        -Conversa sobre oque fazer 17/10
-                        -Plano de formulario 7/11
-                        -Correção de Bugs 21 & 22 / 11
-                        -correção html e css 24/1 19:30 - 23:00
-                        -tentativa humilhamente falha de tentar adaptar o site para celular/tablet 27/11 13:45 - 22:00
+                        -Pré sono finalizado e enviado - 11/07 - 11:00 <br>
+                        -Criação de redes sociais, e rascunho do site - Em produção - 18/07 - 10:06 - finalizado 18/07 -11:10<br>
+                        -Email: superior.dreams.059@gmail.com <br>
+                        -Instagram:superior.dreams.059 <br>
+                        -X:@SuperiorDreams5 <br>
+                        -Recriação da logo - 8:00 - estatus - incompleto - 08/08 <br>
+                        -Recriação da logo - 10:20 - 10:50 - estatus - completo 22/08 <br>
+                        -Finalização da pesquisa e pequena ajuda no figma - 15:00 - 17:00 - 04/09 <br>
+                        -Inicio e termino de 1 pagina (capa) 12:00 - 15:24 - 09/09 <br>
+                        -Inicio e termino das paginas 2, 3, 4, 6 13:00 - 23:00 - 11/09 <br>
+                        // pós sepe // <br>
+                        -Conversa sobre oque fazer 17/10 <br>
+                        -Plano de formulario 7/11 <br>
+                        -Correção de Bugs 21 & 22 / 11 <br>
+                        -correção html e css 24/1 19:30 - 23:00 <br>
+                        -tentativa humilhamente falha de tentar adaptar o site para celular/tablet 27/11 13:45 - 22:00 <br>
 
 //Kevin//
 
@@ -29,8 +29,8 @@
                         - (-Mudança de designe no figma e adição do conteudo em geral - 15:00 - 17:00 - estatus - incompleto - 04/09) <br>
                         - (-Figma Totalmente completo e logo refeita - 13:12 - 16:00 - 09/09) <br>
                         - (-Logo e rede sociais refeitas - 13-00 - 18:00 - 11/09)
-                        // pós sepe // 
-                        -Conversa sobre oque fazer 17/10
-                        -Plano de formulario 7/11
-                        -criação de formulario 14/11 (tempo de aula)
-                        -finalização do formulario 21/11 (em casa) 
+                        // pós sepe //  <br>
+                        -Conversa sobre oque fazer 17/10 <br>
+                        -Plano de formulario 7/11 <br>
+                        -criação de formulario 14/11 (tempo de aula) <br>
+                        -finalização do formulario 21/11 (em casa)  <br>
