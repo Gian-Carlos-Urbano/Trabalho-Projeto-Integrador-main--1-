@@ -16,7 +16,7 @@
                         -Plano de formulario 7/11 <br>
                         -Correção de Bugs 21 & 22 / 11 <br>
                         -correção html e css 24/1 19:30 - 23:00 <br>
-                        -tentativa humilhamente falha de tentar adaptar o site para celular/tablet 27/11 13:45 - 22:00 <br>
+                        -tentativa humilhamente de tentar adaptar o site para celular/tablet 27/11 13:45 - 22:00 <br>
 
 //Kevin//
 
