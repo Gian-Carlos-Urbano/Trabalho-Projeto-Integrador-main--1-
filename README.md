@@ -29,8 +29,8 @@
                         - (-Desenvolvimento do site (figma) - 10:20 - 11:15 - estatus - incompleto - 22/08) <br>
                         - (-Mudança de designe no figma e adição do conteudo em geral - 15:00 - 17:00 - estatus - incompleto - 04/09) <br>
                         - (-Figma Totalmente completo e logo refeita - 13:12 - 16:00 - 09/09) <br>
-                        - (-Logo e rede sociais refeitas - 13-00 - 18:00 - 11/09)
-                        // pós sepe //  <br>
+                        - (-Logo e rede sociais refeitas - 13-00 - 18:00 - 11/09) <br>
+                        // pós sepe // <br>
                         -Conversa sobre oque fazer 17/10 <br>
                         -Plano de formulario 7/11 <br>
                         -criação de formulario 14/11 (tempo de aula) <br>
